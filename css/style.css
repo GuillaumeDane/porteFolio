@@ -16,7 +16,7 @@ a:hover{
 
 nav h1{
   color: white;
-  position:fixed;
+  position:absolute;
   top: 15px;
   left: 10px;
 }
@@ -31,4 +31,25 @@ ul{
   background-color: Black;
   display: flex;
   justify-content: flex-end;
+}
+
+/* ==== Article ==== */
+
+section{
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+
+article{
+  max-width: 400px;
+  margin: 10px;
+}
+article img{
+  max-width: 400px;
+}
+
+.description h2{
+  text-align: center;
+  margin: 10px;
 }
